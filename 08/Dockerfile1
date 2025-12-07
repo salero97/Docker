@@ -1,0 +1,3 @@
+FROM alpine:latest
+ENTRYPOINT top -b
+CMD "-n1"
